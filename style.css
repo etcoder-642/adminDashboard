@@ -53,6 +53,20 @@ img {
     clip-path: circle(50%);
 }
 
+.intro {
+    display: flex;
+    gap: 16px;
+    height: auto;
+}
+
+.intro > img {
+    width: 64px;
+}
+
+.intro > div > strong {
+    font-size: 20px;
+}
+
 .dashboard, .sidebar > ul > li {
     display: flex;
     gap: 8px;
@@ -154,7 +168,7 @@ input:focus {
 
 .content-side{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 40px 1fr;
     gap: 24px;
     margin-right: 12px;
@@ -211,4 +225,18 @@ input:focus {
     margin-bottom: 12px;
     border-bottom: 2px solid var(--standard-grey);
 }
+
+.profile-box > div {
+    display: flex;
+    gap: 8px;
+}
+
+.profile-box > img {
+    width: 48px;
+}
+/* 
+.profile-box > div > div{
+    display: flex;
+    flex-direction: column;
+} */
 
