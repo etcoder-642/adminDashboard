@@ -93,8 +93,12 @@ img {
     vertical-align: top;
 }
 
-.dashboard-icon:hover {
+.dashboard-icon:hover{
     fill: white;
+}
+
+.searching:hover  {
+    fill: black;
 }
 
 .sidebar ul {
