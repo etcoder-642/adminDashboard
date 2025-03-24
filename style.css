@@ -48,6 +48,11 @@
     gap: 20px;
 }
 
+.profile > strong {
+    text-decoration: none;
+    font-size: 16px;
+}
+
 img {
     width: 32px;
     clip-path: circle(50%);
@@ -236,9 +241,9 @@ input:focus {
 .profile-box > img {
     width: 48px;
 }
-/* 
-.profile-box > div > div{
-    display: flex;
-    flex-direction: column;
-} */
+
+.profile-names {
+    font-size: 14px;
+    font-weight: 600;
+}
 
