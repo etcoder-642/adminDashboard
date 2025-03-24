@@ -40,6 +40,16 @@
     fill: white;
 }
 
+svg:hover {
+    fill: rgb(243, 243, 0);
+}
+
+.sidebar > ul > li:hover {
+    background-color: rgb(10, 170, 228);
+    color: yellow;
+    fill: yellow;
+}
+
 .profile {
     width: 100%;
     display: flex;
@@ -83,6 +93,9 @@ img {
     vertical-align: top;
 }
 
+.dashboard-icon:hover {
+    fill: white;
+}
 
 .sidebar ul {
     list-style: none;
@@ -142,6 +155,10 @@ button {
     border-radius: 16px;
 }
 
+button:hover {
+    background-color: var(--border-yellow);
+}
+
 .search-icon, .box-icons {
     fill: black;
     width: 22px;
@@ -170,6 +187,8 @@ input:focus {
     background-color: var(--standard-grey);
     padding: 8px;
     padding-right: calc(16px + 0.4vh + 0.5vw);
+    box-shadow: inset 0 0 48px 4px rgba(0, 0, 0, 0.2);
+
 }
 
 .content-side{
@@ -210,6 +229,10 @@ input:focus {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+
+.content-box:hover {
+    box-shadow: 0 0 12px 3px rgba(251, 255, 14, 0.3);
 }
 
 .content-box-foot {
